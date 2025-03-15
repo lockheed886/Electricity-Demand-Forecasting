@@ -1,0 +1,40 @@
+2025-03-01 23:00:37,595 - INFO - Successfully loaded combined data from: c:\Users\abdul\Music\DS_Assignment_2\Task2\combined_data.csv
+2025-03-01 23:00:37,618 - INFO - Percentage of missing values per column:
+date                  5.677088
+temperature_2m        5.792419
+response             95.944937
+request              98.377975
+apiversion           94.322912
+exceladdinversion    94.322912
+dtype: float64
+2025-03-01 23:00:37,621 - WARNING - Dropping columns with >90% missingness: ['response', 'request', 'apiversion', 'exceladdinversion']
+2025-03-01 23:00:37,809 - INFO - Imputed missing values in date using linear interpolation
+2025-03-01 23:00:37,819 - INFO - Imputed missing values in temperature_2m using linear interpolation
+2025-03-01 23:00:37,886 - INFO - Converted 'date' to datetime and extracted temporal features.
+2025-03-01 23:00:37,894 - INFO - Converted season to categorical type.
+2025-03-01 23:00:37,921 - INFO - Removed 104391 duplicate rows.
+2025-03-01 23:00:37,923 - WARNING - Outliers detected in temperature_2m: [35.2085, 35.608498, 34.9585, 34.9585, 35.2585, 36.3085, 37.2085, 37.7085, 37.608498, 37.2085, 36.5585, 35.9585, 35.108498, 35.358498, 36.5085, 37.108498, 37.158497, 36.858498, 36.5585, 35.4585]
+2025-03-01 23:00:37,924 - INFO - Capped outliers in temperature_2m using IQR method.
+2025-03-01 23:00:37,933 - INFO - Derived 'day_of_week' and 'is_weekend' features.
+2025-03-01 23:00:37,935 - INFO - Normalized temperature_2m using z-score standardization.
+2025-03-01 23:00:38,165 - INFO - Preprocessed data saved to: c:\Users\abdul\Music\DS_Assignment_2\Task2\preprocessed_data.csv
+2025-03-13 22:11:11,227 - INFO - Successfully loaded combined data from: c:\Users\abdul\Music\DS_Assignment_2\Task2\combined_data.csv
+2025-03-13 22:11:11,256 - INFO - Percentage of missing values per column:
+date                  5.677088
+temperature_2m        5.792419
+response             95.944937
+request              98.377975
+apiversion           94.322912
+exceladdinversion    94.322912
+dtype: float64
+2025-03-13 22:11:11,265 - WARNING - Dropping columns with >90% missingness: ['response', 'request', 'apiversion', 'exceladdinversion']
+2025-03-13 22:11:11,519 - INFO - Imputed missing values in date using linear interpolation
+2025-03-13 22:11:11,534 - INFO - Imputed missing values in temperature_2m using linear interpolation
+2025-03-13 22:11:11,628 - INFO - Converted 'date' to datetime and extracted temporal features.
+2025-03-13 22:11:11,643 - INFO - Converted season to categorical type.
+2025-03-13 22:11:11,688 - INFO - Removed 104391 duplicate rows.
+2025-03-13 22:11:11,698 - WARNING - Outliers detected in temperature_2m: [35.2085, 35.608498, 34.9585, 34.9585, 35.2585, 36.3085, 37.2085, 37.7085, 37.608498, 37.2085, 36.5585, 35.9585, 35.108498, 35.358498, 36.5085, 37.108498, 37.158497, 36.858498, 36.5585, 35.4585]
+2025-03-13 22:11:11,701 - INFO - Capped outliers in temperature_2m using IQR method.
+2025-03-13 22:11:11,727 - INFO - Derived 'day_of_week' and 'is_weekend' features.
+2025-03-13 22:11:11,730 - INFO - Normalized temperature_2m using z-score standardization.
+2025-03-13 22:11:12,021 - INFO - Preprocessed data saved to: c:\Users\abdul\Music\DS_Assignment_2\Task2\preprocessed_data.csv

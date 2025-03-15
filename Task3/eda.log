@@ -1,0 +1,27 @@
+2025-03-01 23:19:38,908 - INFO - Successfully loaded preprocessed data from: c:\Users\abdul\Music\DS_Assignment_2\Task3\preprocessed_data.csv
+2025-03-01 23:23:21,132 - INFO - Successfully loaded preprocessed data from: c:\Users\abdul\Music\DS_Assignment_2\Task3\preprocessed_data.csv
+2025-03-01 23:23:21,177 - INFO - Successfully converted 'date' to datetime with ISO8601 format.
+2025-03-01 23:23:21,178 - INFO - Computing statistical summary for numerical features.
+2025-03-01 23:23:21,203 - INFO - Statistical summary computed.
+2025-03-01 23:23:21,208 - INFO - Statistical summary saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\stats_summary.csv
+2025-03-01 23:23:21,218 - INFO - Performing time series analysis for electricity demand.
+2025-03-01 23:23:27,110 - INFO - Time series plot saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\time_series_plot.png
+2025-03-01 23:23:27,111 - INFO - Performing univariate analysis for key numerical features.
+2025-03-01 23:23:29,563 - INFO - Univariate plot for temperature_2m saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\univariate_temperature_2m.png
+2025-03-01 23:23:29,568 - INFO - temperature_2m Distribution: Mean=0.00, Median=-0.12, Spread=1.00, Shape=symmetric
+2025-03-01 23:23:31,626 - INFO - Univariate plot for hour saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\univariate_hour.png
+2025-03-01 23:23:31,628 - INFO - hour Distribution: Mean=11.51, Median=12.00, Spread=6.92, Shape=symmetric
+2025-03-01 23:23:32,553 - INFO - Univariate plot for day saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\univariate_day.png
+2025-03-01 23:23:32,555 - INFO - day Distribution: Mean=14.48, Median=14.00, Spread=9.47, Shape=symmetric
+2025-03-01 23:23:33,543 - INFO - Univariate plot for month saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\univariate_month.png
+2025-03-01 23:23:33,545 - INFO - month Distribution: Mean=5.71, Median=5.00, Spread=3.73, Shape=symmetric
+2025-03-01 23:23:34,462 - INFO - Univariate plot for year saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\univariate_year.png
+2025-03-01 23:23:34,464 - INFO - year Distribution: Mean=2023.18, Median=2023.00, Spread=0.88, Shape=symmetric
+2025-03-01 23:23:34,464 - INFO - Performing correlation analysis.
+2025-03-01 23:23:34,698 - INFO - Correlation heatmap saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\correlation_heatmap.png
+2025-03-01 23:23:34,705 - INFO - No significant multicollinearity detected.
+2025-03-01 23:23:34,706 - INFO - Performing advanced time series analysis.
+2025-03-01 23:23:36,150 - INFO - Time series decomposition saved to: c:\Users\abdul\Music\DS_Assignment_2\Task3\time_series_decomposition.png
+2025-03-01 23:23:39,044 - INFO - ADF Test Results: Statistic=-6.11, p-value=0.00, Critical Values={'1%': np.float64(-3.4305621948322504), '5%': np.float64(-2.8616337844717874), '10%': np.float64(-2.5668199185964347)}
+2025-03-01 23:23:39,045 - INFO - Time series is stationary (p-value < 0.05).
+2025-03-01 23:23:39,045 - INFO - EDA completed successfully.

@@ -1,0 +1,17 @@
+2025-03-02 19:23:33,492 - INFO - Successfully loaded processed data from: c:\Users\abdul\Music\DS_Assignment_2\Tassk5\outlier_processed_data.csv
+2025-03-02 19:23:33,530 - INFO - Selecting relevant features for regression.
+2025-03-02 19:23:33,531 - INFO - Splitting data into training and testing sets.
+2025-03-02 19:23:33,537 - INFO - Training set size: 24697, Testing set size: 6175
+2025-03-02 19:23:33,537 - INFO - Building linear regression model.
+2025-03-02 19:23:33,545 - INFO - Model training completed.
+2025-03-02 19:23:33,545 - INFO - Evaluating the model.
+2025-03-02 19:23:33,547 - INFO - Evaluation Metrics: MSE=0.94, RMSE=0.97, R2=0.07
+2025-03-02 19:23:33,550 - INFO - Evaluation metrics saved to: c:\Users\abdul\Music\DS_Assignment_2\Tassk5\regression_metrics.csv
+2025-03-02 19:23:33,550 - INFO - Plotting actual vs. predicted values.
+2025-03-02 19:23:35,870 - INFO - Actual vs. Predicted plot saved to: c:\Users\abdul\Music\DS_Assignment_2\Tassk5\actual_vs_predicted.png
+2025-03-02 19:23:35,871 - INFO - Performing residual analysis.
+2025-03-02 19:23:36,142 - INFO - Residuals distribution plot saved to: c:\Users\abdul\Music\DS_Assignment_2\Tassk5\residuals_distribution.png
+2025-03-02 19:23:36,142 - INFO - Residual Analysis: Mean=-0.01, Std=0.97
+2025-03-02 19:23:36,143 - WARNING - Model may need improvement: residuals are not centered or R2 is low.
+2025-03-02 19:23:36,144 - INFO - Trained model saved to: c:\Users\abdul\Music\DS_Assignment_2\Tassk5\regression_model.pkl
+2025-03-02 19:23:36,145 - INFO - Regression modeling completed successfully.

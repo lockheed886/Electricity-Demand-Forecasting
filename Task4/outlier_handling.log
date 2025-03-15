@@ -1,0 +1,38 @@
+2025-03-02 19:14:25,684 - INFO - Successfully loaded preprocessed data from: c:\Users\abdul\Music\DS_Assignment_2\Task4\preprocessed_data.csv
+2025-03-02 19:14:25,724 - INFO - Validated 'hour' to range 0-23.
+2025-03-02 19:14:25,725 - INFO - Validated 'day' to range 1-31.
+2025-03-02 19:14:25,726 - INFO - Validated 'month' to range 1-12.
+2025-03-02 19:14:25,727 - INFO - Validated 'year' to range 2020-2025.
+2025-03-02 19:14:25,727 - INFO - Performing IQR-based outlier detection.
+2025-03-02 19:14:25,729 - INFO - No IQR outliers detected in temperature_2m.
+2025-03-02 19:14:25,732 - INFO - No IQR outliers detected in hour.
+2025-03-02 19:14:25,733 - INFO - No IQR outliers detected in day.
+2025-03-02 19:14:25,735 - INFO - No IQR outliers detected in month.
+2025-03-02 19:14:25,737 - INFO - No IQR outliers detected in year.
+2025-03-02 19:14:25,739 - INFO - No IQR outliers detected in is_weekend.
+2025-03-02 19:14:25,739 - INFO - Performing Z-score outlier detection.
+2025-03-02 19:14:25,740 - WARNING - Z-score Outliers in temperature_2m: [3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.009183605447908, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614, 3.015335048956614]
+2025-03-02 19:14:25,741 - INFO - No Z-score outliers detected in hour.
+2025-03-02 19:14:25,742 - INFO - No Z-score outliers detected in day.
+2025-03-02 19:14:25,744 - INFO - No Z-score outliers detected in month.
+2025-03-02 19:14:25,745 - INFO - No Z-score outliers detected in year.
+2025-03-02 19:14:25,746 - INFO - No Z-score outliers detected in is_weekend.
+2025-03-02 19:14:25,746 - INFO - Evaluating impact of outliers.
+2025-03-02 19:14:25,749 - INFO - temperature_2m Impact: Mean change=0.07, Std change=0.07
+2025-03-02 19:14:25,751 - INFO - hour Impact: Mean change=10.51, Std change=6.11
+2025-03-02 19:14:25,753 - INFO - day Impact: Mean change=12.98, Std change=8.97
+2025-03-02 19:14:25,757 - INFO - month Impact: Mean change=4.45, Std change=3.29
+2025-03-02 19:14:25,758 - INFO - year Impact: Mean change=nan, Std change=nan
+2025-03-02 19:14:25,759 - INFO - is_weekend Impact: Mean change=0.00, Std change=0.00
+2025-03-02 19:14:25,760 - INFO - Applying capping strategy for outliers.
+2025-03-02 19:14:25,762 - INFO - Capped outliers in temperature_2m between -3.04 and 3.02
+2025-03-02 19:14:25,764 - INFO - Capped outliers in hour between -12.00 and 36.00
+2025-03-02 19:14:25,767 - INFO - Capped outliers in day between -22.00 and 50.00
+2025-03-02 19:14:25,769 - INFO - Capped outliers in month between -8.50 and 19.50
+2025-03-02 19:14:25,773 - INFO - Capped outliers in year between 2019.00 and 2027.00
+2025-03-02 19:14:25,775 - INFO - Capped outliers in is_weekend between -1.50 and 2.50
+2025-03-02 19:14:25,775 - INFO - Creating before-and-after visualizations.
+2025-03-02 19:14:26,134 - INFO - Outlier visualization for temperature_2m saved to: c:\Users\abdul\Music\DS_Assignment_2\Task4\outlier_viz_temperature_2m.png
+2025-03-02 19:14:26,444 - INFO - Outlier visualization for hour saved to: c:\Users\abdul\Music\DS_Assignment_2\Task4\outlier_viz_hour.png
+2025-03-02 19:14:26,718 - INFO - Outlier visualization for day saved to: c:\Users\abdul\Music\DS_Assignment_2\Task4\outlier_viz_day.png
+2025-03-02 19:14:26,946 - INFO - Modified dataset saved to: c:\Users\abdul\Music\DS_Assignment_2\Task4\outlier_processed_data.csv
